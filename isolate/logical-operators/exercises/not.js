@@ -4,6 +4,15 @@
 //  ... but doesn't use !
 function not(value) {
 
+    if (Boolean(value) === true){
+        return false;
+    }
+
+    else {
+
+        return true;
+    }
+
 }
 
 const not1 = not(0);
