@@ -4,6 +4,16 @@
 //  ... without using ||
 function or(left, right) {
 
+    if (Boolean(left) === true){
+
+        return left;
+    }
+
+    else {
+
+        return right;
+    }
+
 }
 
 const or1 = or(0, 0);
