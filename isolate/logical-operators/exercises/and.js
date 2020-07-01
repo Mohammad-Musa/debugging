@@ -4,6 +4,16 @@
 //  ... without using &&
 function and(left, right) {
 
+    if (Boolean (left) === false){
+        
+        return left;
+    }
+
+    else{
+
+        return right;
+    }
+
 }
 
 const and1 = and(0, 0);
