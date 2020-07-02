@@ -7,6 +7,20 @@
 */
 function mystery(x, y) {
   // write some code!
+
+  const right = Number(x)
+  const left = Number(y)
+
+  if (right === left){
+
+    return true;
+  }
+
+  else {
+
+    return false;
+  }
+
 }
 
 // all of the test cases are correct
